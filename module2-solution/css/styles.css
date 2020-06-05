@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #fefae0;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+section {
+  margin: 10px;
+  border: 1px solid black;
+  background: #cedfd9;
+}
+h2 {
+  margin: 0px;
+  border: 1px solid black;
+  float: right;
+  width: 30%;
+  text-align: center;
+}
+p {
+  clear: right;
+  margin: 10px;
+  padding: 10px 5px 5px 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.chicken {
+  background: #da4167;
+  color: black;
+}
+.beef {
+  background: #832161;
+  color: black;
+}
+.sushi {
+  background: #f87060;
+  color: black;
+}
+@media (min-width: 992px) {
+  .c,
+  .b,
+  .s {
+    width: 33.33%;
+    float: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .c,
+  .b {
+    width: 50%;
+    float: left;
+  }
+  .s {
+    width: 100%;
+    float: left;
+  }
+  .sushi {
+    width: 20%;
+  }
+}
+@media (max-width: 767px) {
+  section {
+    margin: 20px;
+  }
+}
