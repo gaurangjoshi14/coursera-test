@@ -29,15 +29,15 @@ p {
 }
 .chicken {
   background: #da4167;
-  color: black;
+  color: white;
 }
 .beef {
   background: #832161;
-  color: black;
+  color: white;
 }
 .sushi {
   background: #f87060;
-  color: black;
+  color: white;
 }
 @media (min-width: 992px) {
   .c,
